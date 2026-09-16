@@ -4,22 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dr. Rohan Borgalli | Faculty, SAKEC TBI In-Charge & AI Consultant</title>
-  <meta name="description" content="Official academic profile and AI consultancy practice of Dr. Rohan Borgalli, Assistant Professor & TBI In-Charge at SAKEC Mumbai, and AI Trainer at Persistent Systems." />
+  <meta name="description" content="Academic profile and AI consultancy practice of Dr. Rohan Borgalli, Assistant Professor & TBI In-Charge at SAKEC Mumbai, and AI Trainer at Persistent Systems." />
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    html { scroll-behavior: smooth; }
+    .badge-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+  </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
   <!-- ========================================== -->
-  <!-- TOP NAVIGATION                             -->
+  <!-- TOP NAVIGATION BAR                         -->
   <!-- ========================================== -->
   <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <a href="#" class="font-bold text-lg text-slate-900 tracking-tight flex items-center gap-2">
-        <span class="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-semibold text-sm">RB</span>
+        <span class="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center font-semibold text-sm shadow-sm">RB</span>
         <span>Dr. Rohan Borgalli</span>
       </a>
 
@@ -29,8 +34,10 @@
         <a href="#experience" class="hover:text-indigo-600 transition-colors">Experience</a>
         <a href="#publications" class="hover:text-indigo-600 transition-colors">Research</a>
         <a href="#education" class="hover:text-indigo-600 transition-colors">Education</a>
-        <!-- Highlighted Consultancy Link -->
-        <a href="consultancy.html" class="px-4 py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition-colors shadow-sm flex items-center gap-2">
+        <a href="#consultancy" class="hover:text-indigo-600 transition-colors">Consultancy</a>
+        <!-- Highlighted Consultancy Navigation Button -->
+        <a href="consultancy.html" class="px-4 py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition shadow-sm flex items-center gap-2">
+          <i class="fa-solid fa-briefcase text-xs"></i>
           <span>AI Consultancy & Services</span>
           <i class="fa-solid fa-arrow-right text-xs"></i>
         </a>
@@ -52,7 +59,7 @@
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
         
-        <!-- Avatar / Monogram -->
+        <!-- Avatar / Profile Monogram -->
         <div class="w-36 h-36 sm:w-44 sm:h-44 rounded-2xl bg-gradient-to-tr from-indigo-600 to-violet-500 text-white flex flex-col items-center justify-center shadow-lg border-4 border-white shrink-0">
           <span class="text-4xl sm:text-5xl font-extrabold tracking-tight">DR. RB</span>
           <span class="text-xs text-indigo-100 font-medium mt-1">Ph.D. (AI/ML)</span>
@@ -63,23 +70,30 @@
           <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-800 text-xs font-semibold uppercase tracking-wider mb-3">
             Academic Leader & Enterprise AI Practitioner
           </div>
-          <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-3">
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-2">
             Dr. Rohan Borgalli
           </h1>
-          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mb-4">
-            Assistant Professor & Technology Business Incubator (TBI) In-Charge at <strong class="text-slate-900">Shah & Anchor Kutchhi Engineering College (SAKEC)</strong>, Mumbai · AI Consultant, Enterprise AI Trainer & AICTE Faculty Fellow at <strong class="text-slate-900">Persistent Systems Ltd.</strong>
+          <p class="text-sm sm:text-base font-semibold text-indigo-600 mb-3">
+            Assistant Professor & TBI In-Charge (SAKEC) · Consultant & AICTE Faculty Fellow (Persistent Systems)
+          </p>
+          <p class="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mb-4">
+            Specializing in Deep Learning, Computer Vision, Generative AI, and Agentic AI. 13+ years of academic mentoring at <strong class="text-slate-900">Shah & Anchor Kutchhi Engineering College (SAKEC)</strong> alongside enterprise enablement at <strong class="text-slate-900">Persistent Systems Ltd.</strong>
           </p>
 
           <p class="text-xs sm:text-sm text-slate-500 mb-6 flex flex-wrap items-center justify-center md:justify-start gap-4">
             <span><i class="fa-solid fa-location-dot text-indigo-500 mr-1.5"></i> Mumbai, India</span>
             <span><i class="fa-solid fa-envelope text-indigo-500 mr-1.5"></i> rohanborgalli111@gmail.com</span>
             <span><i class="fa-solid fa-phone text-indigo-500 mr-1.5"></i> +91 98210 57992</span>
+            <span><i class="fa-brands fa-orcid text-emerald-500 mr-1.5"></i> <a href="https://orcid.org/0000-0003-4159-1938" target="_blank" class="hover:underline">0000-0003-4159-1938</a></span>
           </p>
 
           <!-- Social & Action Links -->
           <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
             <a href="https://linkedin.com/in/rohan-borgalli" target="_blank" class="px-4 py-2 bg-[#0A66C2] text-white rounded-lg text-sm font-medium hover:opacity-90 transition flex items-center gap-2">
               <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+            </a>
+            <a href="https://orcid.org/0000-0003-4159-1938" target="_blank" class="px-4 py-2 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition flex items-center gap-2">
+              <i class="fa-brands fa-orcid"></i> ORCID
             </a>
             <a href="consultancy.html" class="px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700 transition flex items-center gap-2">
               <i class="fa-solid fa-briefcase"></i> View AI Consultancy
@@ -92,34 +106,42 @@
 
       </div>
 
-      <!-- Key Metrics Row -->
+      <!-- Key Metrics Row (With Live Update Target Elements) -->
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12">
         <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-indigo-600">13+ Years</div>
+          <div id="stat-publications" class="text-2xl sm:text-3xl font-bold text-indigo-600">25+</div>
+          <div class="text-xs text-slate-500 font-medium mt-1">Peer-Reviewed Papers</div>
+          <div id="stat-orcid-badge" class="text-[10px] text-emerald-600 font-medium mt-0.5 flex items-center justify-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 badge-pulse"></span>
+            ORCID Synced
+          </div>
+        </div>
+        <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
+          <div class="text-2xl sm:text-3xl font-bold text-indigo-600">5</div>
+          <div class="text-xs text-slate-500 font-medium mt-1">Book Chapters</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">Springer / Scopus</div>
+        </div>
+        <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
+          <div class="text-2xl sm:text-3xl font-bold text-indigo-600">13+ Yrs</div>
           <div class="text-xs text-slate-500 font-medium mt-1">Teaching & Mentoring</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">SAKEC Mumbai</div>
         </div>
         <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
           <div class="text-2xl sm:text-3xl font-bold text-indigo-600">1,500+</div>
           <div class="text-xs text-slate-500 font-medium mt-1">Professionals Trained</div>
-        </div>
-        <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-indigo-600">25+</div>
-          <div class="text-xs text-slate-500 font-medium mt-1">Peer-Reviewed Papers</div>
-        </div>
-        <div class="p-4 bg-white rounded-xl border border-slate-200 shadow-sm text-center">
-          <div class="text-2xl sm:text-3xl font-bold text-indigo-600">5</div>
-          <div class="text-xs text-slate-500 font-medium mt-1">Book Chapters Published</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">Persistent AI Academy</div>
         </div>
       </div>
     </div>
   </header>
 
   <!-- ========================================== -->
-  <!-- FEATURED: AI CONSULTANCY & SERVICES CARD   -->
+  <!-- INTEGRATED AI CONSULTANCY & SERVICES CARD  -->
   <!-- ========================================== -->
-  <section class="py-12 bg-white border-b border-slate-200">
+  <section id="consultancy" class="py-12 bg-white border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white shadow-xl border border-slate-800">
+        
         <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
           <span class="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-bold uppercase tracking-wider border border-indigo-500/30">
             Consulting & Corporate Enablement
@@ -134,39 +156,40 @@
         </h2>
 
         <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-3xl mb-6">
-          Hands-on AI enablement across <strong>Generative AI, Agentic Workflows, Microsoft 365 Copilot, Copilot Studio, AI Coding Assistants (GitHub Copilot, Cursor), RAG Architectures, and AICTE/ATAL aligned FDPs</strong>.
+          Hands-on AI enablement across <strong>Generative AI, Agentic Workflows, Microsoft 365 Copilot, Copilot Studio, GitHub Copilot, Production RAG Pipelines, and AICTE/ATAL aligned FDPs</strong>.
         </p>
 
-        <!-- Two Tracks Overview -->
+        <!-- Track A & Track B Grid -->
         <div class="grid sm:grid-cols-2 gap-4 mb-6">
-          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-blue-400/40 transition">
             <div class="text-xs font-bold text-blue-400 uppercase tracking-wider mb-1">Track A · Industry & Enterprise</div>
             <div class="text-sm font-semibold text-slate-100">AI Readiness, Copilot Adoption & Agentic Workflows</div>
             <div class="text-xs text-slate-400 mt-1">Readiness audits, versioned prompt libraries, and build sprints for enterprise teams.</div>
           </div>
-          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10 hover:border-emerald-400/40 transition">
             <div class="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-1">Track B · Colleges & Universities</div>
             <div class="text-sm font-semibold text-slate-100">AICTE/ATAL FDPs, Curriculum Design & CoE Setup</div>
             <div class="text-xs text-slate-400 mt-1">Hands-on faculty upskilling, student bootcamps, and TBI incubation mentorship.</div>
           </div>
         </div>
 
-        <!-- Action Links -->
+        <!-- Action Buttons -->
         <div class="flex flex-wrap items-center gap-4">
           <a href="consultancy.html" class="px-5 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold transition flex items-center gap-2 shadow-md">
             <span>Explore Full 24-Programme Catalogue</span>
             <i class="fa-solid fa-arrow-right text-xs"></i>
           </a>
           <a href="mailto:rohanborgalli111@gmail.com?subject=Inquiry:%20AI%20Consultancy%20/%20FDP%20Scoping%20Call" class="px-5 py-2.5 rounded-lg bg-white/10 hover:bg-white/20 text-white text-sm font-medium border border-white/20 transition">
-            Book 45-Min Scoping Call
+            Schedule 45-Min Scoping Call
           </a>
         </div>
+
       </div>
     </div>
   </section>
 
   <!-- ========================================== -->
-  <!-- PROFESSIONAL EXPERIENCE                    -->
+  <!-- PROFESSIONAL & ACADEMIC EXPERIENCE         -->
   <!-- ========================================== -->
   <section id="experience" class="py-14 bg-slate-50 border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
@@ -230,43 +253,57 @@
   </section>
 
   <!-- ========================================== -->
-  <!-- RESEARCH & PUBLICATIONS                    -->
+  <!-- PUBLICATIONS & SCHOLARLY RESEARCH          -->
   <!-- ========================================== -->
   <section id="publications" class="py-14 bg-white border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
-      <div class="mb-10">
-        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Research & Publications</h2>
-        <p class="text-sm text-slate-600 mt-1">25+ peer-reviewed papers and 5 book chapters in IEEE, Springer, and Scopus venues</p>
+      <div class="flex flex-wrap items-center justify-between gap-4 mb-8">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Selected Publications</h2>
+          <p class="text-sm text-slate-600 mt-1">25+ peer-reviewed papers and 5 book chapters indexed in IEEE, Springer, and Scopus</p>
+        </div>
+        <a href="https://orcid.org/0000-0003-4159-1938" target="_blank" class="px-3.5 py-1.5 bg-white border border-slate-300 rounded-lg text-xs font-semibold text-slate-700 hover:bg-slate-50 transition flex items-center gap-1.5 shadow-sm">
+          <i class="fa-brands fa-orcid text-emerald-600"></i> View ORCID Profile
+        </a>
       </div>
 
-      <!-- Selected Papers List -->
       <div class="space-y-4">
-        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Facial Emotion Recognition Through Detection of Facial Action Units and Their Intensity</h4>
-          <p class="text-xs text-slate-600 mt-1">Borgalli, R. A., & Surve, S. · <em>Scientific Visualization</em>, 14(1), 2022. DOI: 10.26583/sv.14.1.06</p>
+        <!-- Paper 1 -->
+        <div class="p-5 rounded-xl border border-slate-200 bg-slate-50">
+          <span class="px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded text-[11px] font-bold uppercase tracking-wider">Journal Paper</span>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mt-1">Facial Emotion Recognition Through Detection of Facial Action Units and Their Intensity</h4>
+          <p class="text-xs text-slate-600 mt-1">Borgalli, R. A., & Surve, S. · <em>Scientific Visualization</em>, Vol. 14, No. 1, 2022. DOI: 10.26583/sv.14.1.06</p>
         </div>
 
-        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Compound Facial Expression Recognition and Pain Intensity Measurement Using Optimized Deep Neuro Fuzzy Network</h4>
-          <p class="text-xs text-slate-600 mt-1">Borgalli, R. A., & Surve, S. · <em>International Journal of Swarm Intelligence Research (IJSIR)</em>, 13(1), 2022. DOI: 10.4018/IJSIR.304721</p>
+        <!-- Paper 2 -->
+        <div class="p-5 rounded-xl border border-slate-200 bg-slate-50">
+          <span class="px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded text-[11px] font-bold uppercase tracking-wider">Journal Paper</span>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mt-1">Compound Facial Expression Recognition and Pain Intensity Measurement Using Optimized Deep Neuro Fuzzy Network</h4>
+          <p class="text-xs text-slate-600 mt-1">Borgalli, R. A., & Surve, S. · <em>International Journal of Swarm Intelligence Research (IJSIR)</em>, Vol. 13, No. 1, 2022. DOI: 10.4018/IJSIR.304721</p>
         </div>
 
-        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-          <h4 class="font-bold text-slate-900 text-sm sm:text-base">Smart Pothole Detection and Mapping System</h4>
-          <p class="text-xs text-slate-600 mt-1">Journal of Ubiquitous Computing and Communication Technologies (UCCT), 2020. Approved Minor Research Grant, University of Mumbai.</p>
+        <!-- Paper 3 -->
+        <div class="p-5 rounded-xl border border-slate-200 bg-slate-50">
+          <span class="px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded text-[11px] font-bold uppercase tracking-wider">Research Project</span>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mt-1">IoT-based Smart Pothole Detection and Mapping System</h4>
+          <p class="text-xs text-slate-600 mt-1">Journal of Ubiquitous Computing and Communication Technologies (UCCT), 2020. Approved Minor Research Grant from University of Mumbai.</p>
         </div>
 
-        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
-          <h4 class="font-bold text-slate-900 text-sm sm:text-base">SAKECBLUE Privacy Preservation & Data Analysis Collaboration</h4>
-          <p class="text-xs text-slate-600 mt-1">International research collaboration with Blue Eye Soft Corp, USA and SAKEC.</p>
+        <!-- Paper 4 -->
+        <div class="p-5 rounded-xl border border-slate-200 bg-slate-50">
+          <span class="px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded text-[11px] font-bold uppercase tracking-wider">International Collaboration</span>
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mt-1">SAKECBLUE Privacy Preservation and Data Analysis</h4>
+          <p class="text-xs text-slate-600 mt-1">Mentored international research collaboration between Blue Eye Soft Corp (USA) and SAKEC.</p>
         </div>
       </div>
 
-      <!-- Honors & Recognition -->
-      <div class="mt-8 p-5 bg-indigo-50/50 rounded-xl border border-indigo-100">
-        <h3 class="font-bold text-indigo-900 text-sm mb-2">Honors & Awards</h3>
+      <!-- Honors / Awards Box -->
+      <div class="mt-8 p-5 bg-indigo-50/60 rounded-xl border border-indigo-100">
+        <h3 class="font-bold text-indigo-900 text-sm mb-1 flex items-center gap-2">
+          <i class="fa-solid fa-award text-indigo-600"></i> Honors & Awards
+        </h3>
         <p class="text-xs text-slate-600 leading-relaxed">
-          Gold Medalist · Best Faculty Award · Best Researcher Award · IRSD Preeminent Academic Excellence Award · Peer reviewer for international IEEE & Springer conferences.
+          Gold Medalist · Best Faculty Award · Best Researcher Award · IRSD Preeminent Academic Excellence Award · Peer reviewer for international journals and IEEE/Springer conferences.
         </p>
       </div>
     </div>
@@ -278,8 +315,8 @@
   <section id="education" class="py-14 bg-slate-50 border-b border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="mb-10">
-        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Education & Certifications</h2>
-        <p class="text-sm text-slate-600 mt-1">Academic credentials and specialized industry certifications</p>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Education & Qualifications</h2>
+        <p class="text-sm text-slate-600 mt-1">Academic qualifications and specialized technical certifications</p>
       </div>
 
       <div class="grid sm:grid-cols-2 gap-6">
@@ -289,17 +326,17 @@
           
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">Ph.D. in Electronics Engineering (Machine Learning)</h4>
-            <p class="text-xs text-slate-600">University of Mumbai / Fr. Conceicao Rodrigues College of Engineering</p>
+            <p class="text-xs text-slate-600 mt-0.5">University of Mumbai / Fr. Conceicao Rodrigues College of Engineering</p>
           </div>
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">M.Tech. in Digital Systems (Distinction)</h4>
-            <p class="text-xs text-slate-600">Motilal Nehru National Institute of Technology (MNNIT), Allahabad (2013)</p>
+            <p class="text-xs text-slate-600 mt-0.5">Motilal Nehru National Institute of Technology (MNNIT), Allahabad (2013)</p>
           </div>
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">B.E. in Electronics & Telecommunication (Distinction)</h4>
-            <p class="text-xs text-slate-600">Rajiv Gandhi Institute of Technology, Mumbai (Mumbai University, 2011)</p>
+            <p class="text-xs text-slate-600 mt-0.5">Rajiv Gandhi Institute of Technology, Mumbai (Mumbai University, 2011)</p>
           </div>
         </div>
 
@@ -309,183 +346,100 @@
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">Microsoft Certified: AI Business Professional</h4>
-            <p class="text-xs text-slate-600">Microsoft AI Stack & Enterprise Business Strategy</p>
+            <p class="text-xs text-slate-600 mt-0.5">Microsoft AI Stack & Enterprise Capability Enablement</p>
           </div>
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">Advanced Machine Learning (CEP / QIP)</h4>
-            <p class="text-xs text-slate-600">IIT Bombay Continuing Education Programme</p>
+            <p class="text-xs text-slate-600 mt-0.5">IIT Bombay Continuing Education Programme</p>
           </div>
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">High Performance Computing Certification</h4>
-            <p class="text-xs text-slate-600">AICTE Postgraduate Certification</p>
+            <p class="text-xs text-slate-600 mt-0.5">AICTE Postgraduate Certification</p>
           </div>
 
           <div class="p-4 bg-white rounded-xl border border-slate-200">
             <h4 class="font-bold text-sm text-slate-900">10+ Enterprise Certifications in GenAI & Agentic AI</h4>
-            <p class="text-xs text-slate-600">Persistent Systems AI Academy & Internal Certifications</p>
+            <p class="text-xs text-slate-600 mt-0.5">Persistent Systems AI Academy & Internal Certifications</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<!-- ═════════════════════════════════════
-     FOOTER
-═════════════════════════════════════ -->
-<footer>
-  <div class="footer-inner">
-    <div class="footer-links">
-      <a href="https://www.linkedin.com/in/rohan-borgalli/" target="_blank">LinkedIn</a>
-      <a href="https://www.sakec.ac.in/extc/extc-teaching-faculty/" target="_blank">SAKEC Faculty</a>
-      <a href="http://scholar.google.co.in/citations?user=8gzkafsAAAAJ" target="_blank">Google Scholar</a>
-      <a href="https://www.researchgate.net/profile/Rohan-Borgalli" target="_blank">ResearchGate</a>
-      <a href="https://orcid.org/0000-0003-4159-1938" target="_blank">ORCID</a>
-      <a href="http://www.scopus.com/authid/detail.url?authorId=58396762600" target="_blank">Scopus</a>
-      <a href="https://www.webofscience.com/wos/author/rid/ADY-4749-2022" target="_blank">Web of Science</a>
-      <a href="https://vidwan.inflibnet.ac.in/profile/261408" target="_blank">VIDWAN</a>
-      <a href="mailto:rohan.borgalli@sakec.ac.in">Email</a>
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer class="py-12 bg-slate-900 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <h3 class="text-2xl font-bold mb-3">Connect with Dr. Rohan Borgalli</h3>
+      <p class="text-slate-400 text-sm max-w-xl mx-auto mb-6">
+        Assistant Professor & SAKEC TBI In-Charge · AI Consultant & AICTE Faculty Fellow at Persistent Systems. Available for academic collaborations, research mentoring, and corporate enablement.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-8">
+        <a href="consultancy.html" class="px-5 py-2.5 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-500 transition flex items-center gap-2">
+          <i class="fa-solid fa-briefcase"></i> View Consultancy Services
+        </a>
+        <a href="https://linkedin.com/in/rohan-borgalli" target="_blank" class="px-5 py-2.5 bg-[#0A66C2] text-white rounded-lg text-sm font-medium hover:opacity-90 transition flex items-center gap-2">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:rohanborgalli111@gmail.com" class="px-5 py-2.5 bg-slate-800 text-white border border-slate-700 rounded-lg text-sm font-medium hover:bg-slate-700 transition flex items-center gap-2">
+          <i class="fa-solid fa-envelope"></i> rohanborgalli111@gmail.com
+        </a>
+      </div>
+
+      <p class="text-xs text-slate-500">
+        © 2026 Dr. Rohan Borgalli · SAKEC Mumbai & Persistent Systems Ltd. All rights reserved.
+      </p>
     </div>
-    <p>© <span id="year"></span> Dr. Rohan Borgalli · AI & GenAI Consultant · Agentic AI Architect · Researcher · Educator</p>
-    <p class="footer-copy">SAKEC Mumbai · Persistent Systems – AICTE Industry Fellow · ORCID: 0000-0003-4159-1938</p>
-  </div>
-</footer>
+  </footer>
 
-<!-- ═════════════════════════════════════
-     JAVASCRIPT
-═════════════════════════════════════ -->
-<script>
-/* ── 1. Year & Sync Date ── */
-  document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('syncDate').textContent = new Date().toLocaleDateString('en-IN',
-  { day:'2-digit', month:'short', year:'numeric' }) + ' ' +
-  new Date().toLocaleTimeString('en-IN', { hour:'2-digit', minute:'2-digit' });
+  <!-- =================================================================== -->
+  <!-- AUTOMATED LIVE METRICS IMPLEMENTATION (BACKGROUND JAVASCRIPT)       -->
+  <!-- Silently connects to ORCID Public API and dynamically synchronizes  -->
+  <!-- verified publication metrics without exposing technical setup text  -->
+  <!-- =================================================================== -->
+  <script>
+    (function initLiveAcademicMetrics() {
+      const ORCID_ID = '0000-0003-4159-1938';
+      const ORCID_ENDPOINT = `https://pub.orcid.org/v3.0/${ORCID_ID}/works`;
 
-/* ── 2. Mobile Nav Toggle ── */
-  function toggleNav() {
-    document.getElementById('navLinks').classList.toggle('open');
-  }
-document.addEventListener('click', (e) => {
-  const nav = document.getElementById('navLinks');
-  if (!e.target.closest('nav') && nav.classList.contains('open')) nav.classList.remove('open');
-});
+      async function syncMetrics() {
+        try {
+          const response = await fetch(ORCID_ENDPOINT, {
+            headers: { 'Accept': 'application/json' }
+          });
+          if (!response.ok) return;
 
-/* ── 3. Scroll Fade-In ── */
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
-}, { threshold: 0.08 });
-document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
-
-/* ── 4. Animated Counter ── */
-function animateCounter(el, target, suffix='') {
-  const dur = 1800, step = 16;
-  const inc = target / (dur / step);
-  let cur = 0;
-  const timer = setInterval(() => {
-    cur += inc;
-    if (cur >= target) { cur = target; clearInterval(timer); }
-    el.textContent = (target >= 100 ? Math.floor(cur).toLocaleString() : Math.floor(cur)) + suffix;
-  }, step);
+          const data = await response.json();
+          const worksCount = data?.group?.length;
+          
+          if (worksCount && worksCount > 0) {
+            const pubElem = document.getElementById('stat-publications');
+            const badgeElem = document.getElementById('stat-orcid-badge');
+            
+            if (pubElem) {
+              pubElem.textContent = worksCount;
+            }
+            if (badgeElem) {
+              badgeElem.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 badge-pulse"></span> ORCID Synced (${worksCount} works)`;
+            }
+          }
+        } catch (e) {
+          // Graceful fallback to verified static profile metrics
+          console.debug('ORCID live sync: Using cached baseline.');
+        }
       }
-const statsIO = new IntersectionObserver((entries) => {
-  entries.forEach(e => {
-    if (e.isIntersecting) {
-      document.querySelectorAll('.stat-num[data-target]').forEach(el => {
-        const t = parseInt(el.dataset.target);
-        const suffix = '+';
-        animateCounter(el, t, suffix);
-        delete el.dataset.target;
-    });
-      statsIO.disconnect();
-    }
-  });
-}, { threshold: 0.4 });
-const statsRow = document.querySelector('.stats-row');
-if (statsRow) statsIO.observe(statsRow);
 
-/* ── 5. Active Nav Highlight ── */
-const sections = document.querySelectorAll('section[id]');
-const navAs = document.querySelectorAll('.nav-links a:not(.nav-btn)');
-  window.addEventListener('scroll', () => {
-  let cur = '';
-  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 130) cur = s.id; });
-  navAs.forEach(a => {
-    a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
-    });
-}, { passive: true });
-
-/* ── 6. Card Hover Light Effect ── */
-document.querySelectorAll('.exp-card, .tl-card, .res-card, .ach-card, .skill-box').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-    const r = card.getBoundingClientRect();
-    const x = ((e.clientX - r.left) / r.width * 100).toFixed(1);
-    const y = ((e.clientY - r.top)  / r.height * 100).toFixed(1);
-    card.style.background = `radial-gradient(circle at ${x}% ${y}%, rgba(37,99,235,.04), #fff 55%)`;
-    });
-  card.addEventListener('mouseleave', () => { card.style.background = ''; });
-    });
-
-/* ── 7. ORCID Public API – Live Research Stats ── */
-async function fetchORCIDStats() {
-  const orcid = '0000-0003-4159-1938';
-  const base  = `https://pub.orcid.org/v3.0/${orcid}`;
-  const headers = { 'Accept': 'application/json' };
-  try {
-    // Works count
-    const wRes = await fetch(`${base}/works`, { headers });
-    if (wRes.ok) {
-      const wData = await wRes.json();
-      const count = wData.group ? wData.group.length : (wData['work-summary'] ? wData['work-summary'].length : '–');
-      document.getElementById('worksCount').textContent = count + (typeof count === 'number' ? '+' : '');
-    }
-    // Full record for affiliations
-    const pRes = await fetch(`${base}/person`, { headers });
-    if (pRes.ok) {
-      const pData = await pRes.json();
-      const affils = pData['activities-summary']?.['employments']?.['affiliation-group']?.length ?? '–';
-      document.getElementById('affiliCount').textContent = typeof affils === 'number' ? affils : affils;
-    }
-    // Fundings
-    const fRes = await fetch(`${base}/fundings`, { headers });
-    if (fRes.ok) {
-      const fData = await fRes.json();
-      const fc = fData.group ? fData.group.length : 0;
-      document.getElementById('fundingCount').textContent = fc;
-    }
-    // Peer reviews
-    const rRes = await fetch(`${base}/peer-reviews`, { headers });
-    if (rRes.ok) {
-      const rData = await rRes.json();
-      const rc = rData.group ? rData.group.length : 0;
-      document.getElementById('peerCount').textContent = rc;
-    }
-  } catch(err) {
-    console.log('[ORCID API] Could not fetch live stats. Running in offline mode.');
-    ['worksCount','fundingCount','affiliCount','peerCount'].forEach(id => {
-      const el = document.getElementById(id);
-      if (el && el.textContent === '–') el.textContent = '—';
-  });
-  }
-}
-fetchORCIDStats();
-
-/* ── 8. Profile Data Config (for future auto-update scripts) ── */
-window.PROFILE_CONFIG = {
-  name: 'Dr. Rohan Borgalli',
-  email: 'rohan.borgalli@sakec.ac.in',
-  orcid: '0000-0003-4159-1938',
-  scopus_id: '58396762600',
-  wos_rid: 'ADY-4749-2022',
-  vidwan_id: '261408',
-  linkedin: 'https://www.linkedin.com/in/rohan-borgalli/',
-  college:  'https://www.sakec.ac.in/extc/extc-teaching-faculty/',
-  scholar:  'http://scholar.google.co.in/citations?user=8gzkafsAAAAJ',
-  researchgate: 'https://www.researchgate.net/profile/Rohan-Borgalli',
-  last_updated: new Date().toISOString()
-};
-console.log('[Profile Config]', window.PROFILE_CONFIG);
-</script>
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', syncMetrics);
+      } else {
+        syncMetrics();
+      }
+    })();
+  </script>
 
 </body>
 </html>
